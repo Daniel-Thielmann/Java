@@ -2,21 +2,27 @@ package main.java;
 
 public class Direcao {
 
-    private Pessoa diretor;
+    private String nomeDiretor;
+    private String cargo;
 
-    public Direcao(String nomeDiretor, Escolaridade escolaridadeDiretor, Cidade cidadeDiretor, Curso curso) {
-        this.diretor = new Pessoa(nomeDiretor, escolaridadeDiretor, cidadeDiretor);
+    public Direcao(String nomeDiretor, String cargo) {
+        this.nomeDiretor = nomeDiretor;
+        this.cargo = cargo;
     }
 
-    public Pessoa getDiretor() {
-        return diretor;
+    public String getNomeDiretor() {
+        return nomeDiretor;
     }
 
-    public void setDiretor(Pessoa diretor) {
-        this.diretor = diretor;
+    public void setNomeDiretor(String nomeDiretor) {
+        this.nomeDiretor = nomeDiretor;
     }
 
-    public String getEscolaridadeDiretor() {
-        return diretor.getEscolaridade().getNivel();
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
     }
 }
