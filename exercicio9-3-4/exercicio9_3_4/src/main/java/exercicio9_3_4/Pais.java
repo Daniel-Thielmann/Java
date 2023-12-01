@@ -1,4 +1,4 @@
-package org.example;
+package exercicio9_3_4;
 
 public class Pais {
 
