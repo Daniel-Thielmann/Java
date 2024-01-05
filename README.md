@@ -1,2 +1,2 @@
 # Orientacao-a-Objetos
-Programas e aplicações orientadas a objetos em Java
+Programas e aplicações Orientadas a Objetos em Java
