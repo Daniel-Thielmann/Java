@@ -30,4 +30,7 @@ public class Ator extends Papel {
         return nacionalidade;
     }
 
-    public void setNacionalidade(String nacional
+    public void setNacionalidade(String nacionalidade) {
+        this.nacionalidade = nacionalidade;
+    }
+}
